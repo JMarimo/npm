@@ -1,0 +1,31 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "\"Browser based game\"",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/JMarimo/npm.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "JMarimo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JMarimo/npm/issues"
+  },
+  "homepage": "https://github.com/JMarimo/npm#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.2",
+    "@babel/preset-env": "^7.23.2"
+  },
+  "dependencies": {
+    "core-js": "^3.33.1"
+  }
+}
